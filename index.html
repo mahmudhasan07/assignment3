@@ -9,14 +9,24 @@
     <script src="https://kit.fontawesome.com/41a0e61ba0.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        .font {
+            font-family: 'Rubik', sans-serif;
+        }
+    </style>
 </head>
 
-<body>
+<body class="font">
     <header class="mx-3 lg:mx-16">
         <nav class="lg:bg-[#F85559] rounded-3xl">
 
             <div class="navbar">
-                <div class="navbar-start lg:text-white text-2xl">
+                <div class="navbar-start lg:text-white">
                     <div class="hidden lg:flex">
                         <ul class="menu menu-horizontal px-1">
                             <li><a>Home</a></li>
@@ -30,10 +40,10 @@
                 </div>
 
                 <div class="navbar-center">
-                    
-                        <img src="images/logo.png" class="w-8" alt="">
-                        <a class="btn btn-ghost normal-case text-black lg:text-white lg:text-3xl text-2xl">Fruit Burst</a>
-                    
+
+                    <img src="images/logo.png" class="w-8" alt="">
+                    <a class="btn btn-ghost normal-case text-black lg:text-white lg:text-3xl text-2xl">Fruit Burst</a>
+
 
                     <!-- Dropdown Section -->
                     <div class="dropdown">
@@ -151,26 +161,28 @@
 
             <!-- Fruits bonus Section -->
 
-            <div class="hidden lg:flex justify-center bg-white absolute ml-56 -mt-20 gap-10 px-10">
-                <div>
-                    <img src="images/fruit1.png" alt="">
-                    <h1>Strawberry</h1>
-                </div>
-                <div>
-                    <img src="images/fruit2.png" alt="">
-                    <h1>Orange</h1>
-                </div>
-                <div>
-                    <img src="images/fruit3.png" alt="">
-                    <h1>Mango</h1>
-                </div>
-                <div>
-                    <img src="images/fruit4.png" alt="">
-                    <h1>Strawberry</h1>
-                </div>
-                <div>
-                    <img src="images/fruit5.png" alt="">
-                    <h1>Pomegranate</h1>
+            <div class="hidden lg:flex justify-center  -mt-20 ">
+                <div class="flex absolute bg-white gap-5 rounded-xl px-5">
+                    <div>
+                        <img src="images/fruit1.png" alt="">
+                        <h1>Strawberry</h1>
+                    </div>
+                    <div>
+                        <img src="images/fruit2.png" alt="">
+                        <h1>Orange</h1>
+                    </div>
+                    <div>
+                        <img src="images/fruit3.png" alt="">
+                        <h1>Mango</h1>
+                    </div>
+                    <div>
+                        <img src="images/fruit4.png" alt="">
+                        <h1>Strawberry</h1>
+                    </div>
+                    <div>
+                        <img src="images/fruit5.png" alt="">
+                        <h1>Pomegranate</h1>
+                    </div>
                 </div>
             </div>
         </section>
